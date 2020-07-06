@@ -3,5 +3,4 @@ node_modules/
 .webpack/
 .build/
 **/*.map
-**/*.js
 .env
