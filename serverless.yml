@@ -1,0 +1,17 @@
+service: lifted-data-migration
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: eu-west-1
+  versionFunctions: false
+  deploymentBucket: lifted-sls-deployments
+
+plugins:
+  - serverless-offline
+
+functions:
+  dump:
+    handler: lambdas/dump.dump
+  restore:
+    handler: lambdas/restore.restore

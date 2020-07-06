@@ -1,0 +1,14 @@
+{
+  "name": "lifted-rds-dump",
+  "version": "1.0.0",
+  "main": "lambda.js",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.706.0",
+    "serverless-offline": "^6.4.0"
+  }
+}
